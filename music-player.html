@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+</head>
+<body style="background-color: #000; color: #fff; font-family: sans-serif;">
+    <table style="table-layout: fixed; width: 100%;">
+        <tr>
+            <td style="width:33%"><img src="./image/icon-audio.png" width="85px" /></td>
+            <td style="width:33%;text-align: center;"><h1>Music Player</h1></td>
+            <td style="width:33%;text-align: right;"><button style="height: 40px;width:150px;">Free Play</button></td>
+        </tr>
+        <tr height="100px"></tr>
+        <tr>
+            <td style="text-align: center;">
+                <img src="./image/naruto.jpg" width="250px" height="300px" style="text-align: center;"/><br><br>
+                <h2>Naruto</h2>
+                <audio id="myAudio" controls>
+                    <source src="./audio/konoha_peace.mp3" type="audio/mpeg">
+                    Audio not supported
+                </audio>
+            </td>
+            <td style="text-align: center;">
+                <img src="./image/your_name.jpg" width="250px" height="300px" style="text-align: center;"/><br><br>
+                <h2>Your Name</h2>
+                <audio id="myAudio" controls>
+                    <source src="./audio/your_name.mp3" type="audio/mpeg">
+                    Audio not supported
+                </audio>
+            </td>
+            <td style="text-align: center;">
+                <img src="./image/jujutsu_kaisen.jpg" width="220px" height="300px" style="text-align: center;"/><br><br>
+                <h2>Jujutsu Kaisen</h2>
+                <audio id="myAudio" controls>
+                    <source src="./audio/jujutsu_kaisen.mp3" type="audio/mpeg">
+                    Audio not supported
+                </audio>
+            </td>
+        </tr>
+    </table>
+
+    <!-- <nav style="display: flex; justify-content: space-between;">
+        <img src="./image/icon-audio.png" width="85px" />
+        <h1>Music Player</h1>
+        <button style="height: 50px; width: 150px">Free Play</button>
+    </nav> -->
+    
+
+  
+
+
+  <!-- <script>
+    var audio = document.getElementById("myAudio");
+    
+    audio.onplay = function() {
+      console.log("Music started");
+    };
+    
+    audio.onpause = function() {
+      console.log("Music paused");
+    };
+    
+    audio.onended = function() {
+      console.log("Music ended");
+    };
+  </script> -->
+</body>
+</html>
